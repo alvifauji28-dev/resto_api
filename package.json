@@ -1,0 +1,26 @@
+{
+  "name": "resto-api",
+  "version": "1.0.0",
+  "description": "API sederhana untuk manajemen menu dan reservasi restoran",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "express",
+    "api",
+    "resto",
+    "menus",
+    "reservations"
+  ],
+  "author": "Kelompok 12",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "marked": "^12.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
